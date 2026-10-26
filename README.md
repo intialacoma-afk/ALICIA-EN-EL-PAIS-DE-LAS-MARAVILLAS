@@ -3,7 +3,7 @@
 Aplicación web interactiva desarrollada con HTML5, CSS3 y JavaScript nativo, implementando formularios, validaciones, manipulación del DOM y estructuras de control.
 
 ## Enlace a la página publicada
-Puedes ver la aplicación funcionando en línea aquí: [https://intialacoma-afk.github.io/ALICIA-EN-EL-PAIS-DE-LAS-MARAVILLAS/](https://intialacoma-afk.github.io/ALICIA-EN-EL-PAIS-DE-LAS-MARAVILLAS/)[cite: 7]
+Puedes ver la aplicación funcionando en línea aquí: [https://intialacoma-afk.github.io/ALICIA-EN-EL-PAIS-DE-LAS-MARAVILLAS/](https://intialacoma-afk.github.io/ALICIA-EN-EL-PAIS-DE-LAS-MARAVILLAS/)
 
 ## Estructura de archivos
 - `index.html`: Contiene la estructura semántica y los formularios de los tres ejercicios.
