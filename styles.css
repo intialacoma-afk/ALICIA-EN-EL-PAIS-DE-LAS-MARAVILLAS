@@ -1,0 +1,126 @@
+/* ================= STYLES - ALICIA EN EL PAÍS DE LAS MARAVILLAS ================= */
+
+/* Colores generales y tipografía */
+body {
+    background-color: #2c1654; /* Fondo morado oscuro místico */
+    color: #f4f1ea; /* Texto color crema claro */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+    text-align: center;
+    background-color: #1a0d33;
+    border: 3px solid #d4af37; /* Borde dorado */
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    color: #ffcc00;
+    margin-bottom: 5px;
+}
+
+header p {
+    color: #d1c4e9;
+    font-style: italic;
+    margin-top: 0;
+}
+
+/* Contenedor principal (Diseño en bloques simples sin Grid ni Flexbox) */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Tarjetas de ejercicios */
+.card {
+    background-color: #3b1f6d; /* Morado intermedio */
+    border: 2px solid #6a1b9a;
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.card h2 {
+    color: #ff80ab; /* Tono rosa/fucsia de la obra */
+    margin-top: 0;
+    border-bottom: 1px solid #6a1b9a;
+    padding-bottom: 8px;
+}
+
+/* Grupos de formularios */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #e1bee7;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box; /* Evita que se salgan del contenedor */
+    border: 2px solid #8e24aa;
+    border-radius: 4px;
+    background-color: #f3e5f5;
+    color: #2c1654;
+    font-size: 16px;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #ffcc00; /* Resalta en dorado al hacer clic */
+    background-color: #ffffff;
+}
+
+/* Botones de envío */
+button[type="submit"] {
+    background-color: #880e4f; /* Rojo vino / Reina de Corazones */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+    transition: background-color 0.2s;
+}
+
+button[type="submit"]:hover {
+    background-color: #ad1457;
+}
+
+/* Cajas de resultados dinámicos */
+.resultado {
+    margin-top: 15px;
+    padding: 12px;
+    background-color: #1a0d33;
+    border-left: 5px solid #d4af37; /* Línea decorativa dorada */
+    border-radius: 4px;
+    font-size: 15px;
+    display: none; /* Se activa con JavaScript cuando hay resultado */
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 15px;
+    color: #b39ddb;
+    font-size: 14px;
+    border-top: 1px solid #4a148c;
+}

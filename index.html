@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alicia en el País de las Maravillas - Práctica Web I</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>🕳️ Alicia en el País de las Maravillas 🫖</h1>
+        <p>Práctica interactiva de Formularios, JavaScript y el DOM</p>
+    </header>
+
+    <main class="container">
+
+        <!-- ================= EJERCICIO 1 ================= -->
+        <section class="card">
+            <h2>1. La poción mágica de Alicia</h2>
+            <p>Descubre si Alicia podrá atravesar la pequeña puerta según su cambio de tamaño.</p>
+            
+            <form id="formPocion">
+                <div class="form-group">
+                    <label for="alturaAlicia">Altura inicial de Alicia (cm):</label>
+                    <input type="number" id="alturaAlicia" step="any" required placeholder="Ej. 150">
+                </div>
+
+                <div class="form-group">
+                    <label for="mlPocion">Cantidad de poción consumida (ml):</label>
+                    <input type="number" id="mlPocion" step="any" required placeholder="Ej. 50">
+                </div>
+
+                <button type="submit">Beber poción</button>
+            </form>
+
+            <div id="resultadoPocion" class="resultado"></div>
+        </section>
+
+
+        <!-- ================= EJERCICIO 2 ================= -->
+        <section class="card">
+            <h2>2. La merienda del Sombrerero Loco</h2>
+            <p>Elige tu bebida preferida, la cantidad de tazas y calcula tu cuenta con descuento.</p>
+            
+            <form id="formSombrerero">
+                <div class="form-group">
+                    <label for="nombreInvitado">Nombre del invitado:</label>
+                    <input type="text" id="nombreInvitado" required placeholder="Ej. El Conejo Blanco">
+                </div>
+
+                <div class="form-group">
+                    <label for="tipoBebida">Elige tu bebida:</label>
+                    <select id="tipoBebida" required>
+                        <option value="" disabled selected>Selecciona una opción...</option>
+                        <option value="te">Té de las Locuras ($5)</option>
+                        <option value="cafe">Café del Dormir ($6)</option>
+                        <option value="infusion">Infusión de Rosas Blancas ($4)</option>
+                        <option value="chocolate">Chocolate del Gato de Cheshire ($7)</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="cantidadTazas">Cantidad de tazas:</label>
+                    <input type="number" id="cantidadTazas" min="1" max="20" required placeholder="Ej. 3">
+                </div>
+
+                <button type="submit">Calcular Merienda</button>
+            </form>
+
+            <div id="resultadoSombrerero" class="resultado"></div>
+        </section>
+
+
+        <!-- ================= EJERCICIO 3 ================= -->
+        <section class="card">
+            <h2>3. El desafío de la Reina de Corazones</h2>
+            <p>Analiza las cartas numeradas de la corte real (pares e impares).</p>
+            
+            <form id="formReina">
+                <div class="form-group">
+                    <label for="cantidadCartas">Cantidad de cartas a analizar (Máx. 100):</label>
+                    <input type="number" id="cantidadCartas" min="1" max="100" required placeholder="Ej. 10">
+                </div>
+
+                <button type="submit">¡Que les corten la cabeza! (Analizar)</button>
+            </form>
+
+            <div id="resultadoReina" class="resultado"></div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Programación Web I — Asignación de JavaScript Nativo y DOM</p>
+    </footer>
+
+    <!-- Enlace al archivo de JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
