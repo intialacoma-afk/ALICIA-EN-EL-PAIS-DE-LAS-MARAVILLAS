@@ -2,7 +2,7 @@
 
 Aplicación web interactiva desarrollada con HTML5, CSS3 y JavaScript nativo, implementando formularios, validaciones, manipulación del DOM y estructuras de control.
 
-## 🔗 Enlace a la página publicada
+## Enlace a la página publicada
 Puedes ver la aplicación funcionando en línea aquí: [https://intialacoma-afk.github.io/ALICIA-EN-EL-PAIS-DE-LAS-MARAVILLAS/](https://intialacoma-afk.github.io/ALICIA-EN-EL-PAIS-DE-LAS-MARAVILLAS/)
 
 ## Estructura de archivos
@@ -50,11 +50,11 @@ Puedes ver la aplicación funcionando en línea aquí: [https://intialacoma-afk.
 
 ## Evidencias y Capturas de Interfaz
 
-### Ejercicio 1: La poción mágica
-![Resultado Ejercicio 1](ejercicio1.png)
+### Ejercicio 1: La poción mágica de Alicia
+![Captura Ejercicio 1](EJERCICIO%201.png)
 
-### Ejercicio 2: La merienda del Sombrerero
-![Resultado Ejercicio 2](ejercicio2.png)
+### Ejercicio 2: La merienda del Sombrerero Loco
+![Captura Ejercicio 2](EJERCICIO%202.png)
 
-### Ejercicio 3: El desafío de la Reina
-![Resultado Ejercicio 3](ejercicio3.png)
+### Ejercicio 3: El desafío de la Reina de Corazones
+![Captura Ejercicio 3](EJERCICIO%203.png)
